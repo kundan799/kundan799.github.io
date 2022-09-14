@@ -45,7 +45,7 @@ const Introduction = () => {
                 </span>
                 Explorer{" "}
               </h4>
-              <h4 className="different">
+              {/* <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
@@ -56,7 +56,7 @@ const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 Cooking{" "}
-              </h4>
+              </h4> */}
             </div>
           </div>
         </div>
