@@ -1,0 +1,67 @@
+.about {
+    flex-direction: column;
+    margin-top: 3em;
+  }
+  .about__name {
+    color: #2978b5;
+    
+  }
+  .mobileHead{
+    font-size: 50px;
+  }
+  
+  .about > :nth-child(2) {
+    margin-top: 1.2em;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--clr-fg-alt);
+  }
+  
+  .about__desc {
+    font-size: 1rem;
+    max-width: 70%;
+    text-align: center;
+  }
+  
+  .about__desc,
+  .about__contact {
+    margin-top: 2.4em;
+  }
+  
+  .about .link--icon {
+    margin-right: 0.8em;
+  }
+  
+  .about .btn--outline {
+    margin-right: 1em;
+  }
+  .btnResume{
+    color: #2978b5;
+    border: 2px solid #2978b5;
+    border-radius: 5px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0px 30px;
+    background-color: #ffff;
+    margin-top: 10px;
+  }
+  .btnResume:hover{
+    background-color:  #2978b5;
+    color:  #ffff;
+  }
+  
+  @media (max-width: 600px) {
+    .mobileHead{
+      align-content: center;
+    }
+    .app .about {
+      align-items: flex-start;
+      margin-top: 2em;
+      justify-content: center;
+      align-items: center;
+    }
+    .about > :nth-child(2) {
+      font-size: 1.5rem;
+    }
+  }
+  
