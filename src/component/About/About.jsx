@@ -15,7 +15,9 @@ const About = () => {
     <>
     <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Kundan Kumar Keshri</span>
+          Hello,
+          <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px" height="50px"></img>
+           I am <span className="about__name">Kundan Kumar Keshri</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
@@ -67,7 +69,7 @@ const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1stoXgliIGULTmEO1grlV3p_bKGffQqW2/view?usp=sharing"
+              "https://drive.google.com/file/d/1ywjWH6h-mrXNF4Qycxx9A-kBBS_CWb8M/view?usp=sharing"
             );
           }}
         >

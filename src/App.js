@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import { Projects } from "./component/project/Project";
 import { Contact } from "./component/Contact/Contact";
 import { ScroolToTop } from "./component/ScroolToTop/ScroolToTop";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   const [{ themename }] = useContext(ThemeContext);
@@ -30,6 +31,7 @@ function App() {
           <Contact />
         </section>
       </main>
+      <Footer/>
       <ScroolToTop/>
     </div>
   );

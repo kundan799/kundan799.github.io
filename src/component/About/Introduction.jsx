@@ -9,7 +9,7 @@ const Introduction = () => {
     <section id="#about">
         <div className="section" data-aos="fade-right">
           <h2 className="section__title">
-            About <span className="different">Me</span>
+          🙋‍♂️  About <span className="different">Me</span>
           </h2>
           <div className={"introduction " }>
             <div className="introduction_logocontainer">
@@ -17,7 +17,9 @@ const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
+                Hi
+                <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></img>
+                 Everyone, My name is{" "}
                 <span className="different">Kundan Kumar Keshri </span> and I am from{" "}
                 <span className="different">
                   {" "}
