@@ -15,8 +15,10 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "gh-pages": "^4.0.0",
+    "github-calendar": "^2.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^3.3.4",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.5.2",
@@ -30,8 +32,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-   
-
   },
   "eslintConfig": {
     "extends": [

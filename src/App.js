@@ -11,6 +11,9 @@ import { Projects } from "./component/project/Project";
 import { Contact } from "./component/Contact/Contact";
 import { ScroolToTop } from "./component/ScroolToTop/ScroolToTop";
 import Footer from "./component/Footer/Footer";
+import GitHub from "./component/Github/GitHub"
+import State from "./component/State/State";
+
 
 function App() {
   const [{ themename }] = useContext(ThemeContext);
@@ -26,6 +29,12 @@ function App() {
         <About/>
         <section id="#projects">
           <Projects />
+        </section>
+        <section>
+          <GitHub/>
+          <br/>
+          <br/>
+          <State/>
         </section>
         <section id="#contact">
           <Contact />

@@ -18,7 +18,7 @@
   }
   .footerBox>h5{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     color: #ffff;
   
   }
