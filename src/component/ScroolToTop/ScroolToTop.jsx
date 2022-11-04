@@ -7,9 +7,9 @@ export const ScroolToTop = () => {
 
   useEffect(() => {
     const toggleVisibility = () =>
-    // for visible
+      // for visible
       window.pageYOffset > 500 ? setIsVisible(true) : setIsVisible(false);
-// click
+    // click
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
@@ -17,7 +17,7 @@ export const ScroolToTop = () => {
   return isVisible ? (
     <div className="scroll-top">
       <a href="#top">
-        <ArrowUpwardIcon fontSize="large"  />
+        <ArrowUpwardIcon fontSize="large" />
       </a>
     </div>
   ) : null;

@@ -1,5 +1,7 @@
 .main {
     margin-top: 4em;
+    height: auto;
+    border: 1px solid white;
   }
   .techsection {
     width: 100%;
@@ -7,6 +9,9 @@
     background-color: var(--clr-bg);
     height: 50vh;
     /* max-height: 400px; */
+  }
+  .skill{
+    margin-top: 4rem;
   }
   
   .techsection > div {

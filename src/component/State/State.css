@@ -1,92 +1,45 @@
-.main-stats{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    border: 2px solid  #2978b5; 
-    width: 65%;
-    padding: 20px;
-    border-radius: 10px;
-    
+.contener {
+  border: 3px solid #2978b5;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 15px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
 }
-.circle{
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    border: 5px solid  #2978b5;
-    
+.stat {
+  text-align: center;
+  color: #2978b5;
 }
-.circle-even{
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    border: 5px solid #0589ee;
 
+.contener1 {
+  border: 3px solid #2978b5;
+  border-radius: 20px;
+  width: 820px;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 15px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
-p{
-    margin: auto;
+.img1 {
+  width: auto;
 }
 @media (max-width: 600px) {
-    .main-stats{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        gap: 35px;
-    }
-    .circle{
-        border-radius: 50%;
-        height: 60px;
-        width: 60px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        border: 5px solid  #2978b5;
-        
-    }
-    .circle-even{
-        border-radius: 50%;
-        height: 60px;
-        width: 60px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        border: 5px solid  #0589ee;
-    
-    }
-    
+  .contener {
+    width: 400px;
   }
-  @media (max-width: 300px) {
-    .main-stats{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        gap: 10px;
-        
-    }
-    .circle{
-        border-radius: 50%;
-        height: 60px;
-        width: 60px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        border: 5px solid  #2978b5;
-        
-    }
-    .circle-even{
-        border-radius: 50%;
-        height: 60px;
-        width: 60px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        border: 5px solid  #0589ee;
-    
-    }
-    
+  .contener1 {
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    gap: 3px;
   }
+  .img1 {
+    width: 380px;
+    display: block;
+    margin: auto;
+  }
+}

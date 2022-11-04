@@ -64,17 +64,24 @@ const About = () => {
           </a>
         
         </div>
+        <a  download href="Kundan_Kumar_Keshri_Resume.pdf">
 
-        <button
+
+        <button 
           className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1ywjWH6h-mrXNF4Qycxx9A-kBBS_CWb8M/view?usp=sharing"
-            );
-          }}
+         
         >
           Resume
         </button>
+        </a>
+        {/* window.open(
+              "Kundan_Kumar_Keshri_Resume.pdf"
+            ); */}
+             {/* onClick={() => {
+            window.open(
+              "Kundan_Kumar_Keshri_Resume.pdf"
+            );
+          }} */}
       </div>
       <Introduction/>
       <Timeline/>

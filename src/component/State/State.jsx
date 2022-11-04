@@ -1,40 +1,50 @@
-import React from 'react'
-import "./State.css"
+import React from "react";
 
-const State= () => {
+import "./State.css";
+
+const State = () => {
   return (
     <div>
-        <br /><br />
-        <div className='main-stats'>
-            <div>
-            <div className='circle'><p>1200+</p></div>
-            <h5>Hours</h5>
-            <h6>Of Coding</h6>
-            </div>
-            <div>
-            <div className='circle-even'><p>400+</p></div>
-            <h5>HackerRank</h5>
-            <h6>Points</h6>
-            </div>
-            <div>
-            <div className='circle'><p>400+</p> </div>
-            <h5>Git</h5>
-            <h6>Commits</h6>
-            </div>
-            <div>
-            <div className='circle-even'><p>3</p></div>
-            <h5>Projects</h5>
-            <h6>Done</h6>
-            </div>
-            <div>
-            <div className='circle'><p>100+</p></div>
-            <h5>Hours</h5>
-            <h6>Of Soft Skills</h6>
-            </div>
-            
+      <div>
+        <div className="contener" data-aos="fade-right">
+          <a href="https://github.com/kundan799">
+            <img
+              className="img1"
+              align="center"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=kundan799"
+              alt="total"
+            />
+          </a>
         </div>
-    </div>
-  )
-}
+        <br />
+        <br />
+        <br />
+        <h2 className="stat" data-aos="fade-right">
+          My Statistics
+        </h2>
+        <br />
 
-export default State
+        <div className="contener1" data-aos="fade-right">
+          <a href="https://github.com/kundan799">
+            <img
+              className="img1"
+              align="center"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=kundan799"
+              alt="stats"
+            />
+          </a>
+          <a href="https://github.com/kundan799">
+            <img
+              className="img1"
+              align="left"
+              src="https://github-readme-stats.vercel.app/api?username=kundan799&count_private=true&show_icons=true"
+              alt="language "
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default State;

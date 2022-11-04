@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./component/Navbar/Navbar";
+
 import { Header } from "./component/Header/Header";
 import { ThemeContext } from "./context/Theme";
 import { useContext, useEffect } from "react";
@@ -11,12 +10,11 @@ import { Projects } from "./component/project/Project";
 import { Contact } from "./component/Contact/Contact";
 import { ScroolToTop } from "./component/ScroolToTop/ScroolToTop";
 import Footer from "./component/Footer/Footer";
-import GitHub from "./component/Github/GitHub"
+import GitHub from "./component/Github/GitHub";
 import State from "./component/State/State";
 
-
 function App() {
-  const [{ themename }] = useContext(ThemeContext);
+  // const [{ themename }] = useContext(ThemeContext);
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
@@ -25,23 +23,25 @@ function App() {
       <section id="#home" className="sticky">
         <Header />
       </section>
+      <br />
+      <br />
       <main>
-        <About/>
+        <About />
         <section id="#projects">
           <Projects />
         </section>
         <section>
-          <GitHub/>
-          <br/>
-          <br/>
-          <State/>
+          <GitHub />
+          <br />
+          <br />
+          <State />
         </section>
         <section id="#contact">
           <Contact />
         </section>
       </main>
-      <Footer/>
-      <ScroolToTop/>
+      <Footer />
+      <ScroolToTop />
     </div>
   );
 }

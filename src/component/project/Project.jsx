@@ -13,6 +13,7 @@ import {
   SiReactrouter,
   SiJavascript,
   SiChakraui,
+  SiRedux,
   SiMongodb,
   SiNodedotjs,
 } from "react-icons/si";
@@ -22,11 +23,15 @@ import { IoLogoJavascript } from "react-icons/io";
 import profilePic from "../../assest/mailChimpClone.png";
 import zapoosclone from "../../assest/ZapoosClone.png";
 import kfcclone from "../../assest/KfcClone.png";
+import havvest from "../../assest/harvest.png";
 
 export const Projects = () => {
   return (
     <>
-      <div className="section">
+      {/* project 1*/}
+      <div className="section pro">
+        <br />
+        <br />
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
@@ -72,6 +77,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+          {/* project 2 */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -115,6 +121,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+          {/* project 3 */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -125,12 +132,12 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>KFC Clone</h2>
                 <p>
-                KFC is an online food delivery website as well as we can find
-                  stores too at different locations in the
-                  country. A collaborative project built by a team of 6 executed in 6days.
+                  KFC is an online food delivery website as well as we can find
+                  stores too at different locations in the country. A
+                  collaborative project built by a team of 6 executed in 6days.
                 </p>
                 <div>
-                <SiHtml5 />
+                  <SiHtml5 />
                   <DiCss3 />
                   <IoLogoJavascript />
                 </div>
@@ -141,11 +148,58 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                    See this Live
+                      See this Live
                     </span>
                   </a>
                   <a
                     href="https://github.com/srbhkumar624/kfcclonewebsite"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* project 4 */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={havvest} alt="" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Harvest Clone</h2>
+                <p>
+                  Harvest is a web app for time tracking and projects
+                  management. Created Full Stack App to handle all the details
+                  about the project,employee time tracking...
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />
+                  <FaReact />
+                  <SiRedux/>
+                  <SiChakraui />
+                </div>
+                <div>
+                  <a
+                    href="https://getharvest-clone.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/kundan799/doting-caption-2440"
                     target="_blank"
                     rel="noreferrer"
                   >

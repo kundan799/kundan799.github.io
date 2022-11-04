@@ -7,7 +7,9 @@ const Introduction = () => {
   return (
     <>
     <section id="#about">
-        <div className="section" data-aos="fade-right">
+        <div className="section sec1" data-aos="fade-right">
+          <br/>
+          <br/>
           <h2 className="section__title">
           🙋‍♂️  About <span className="different">Me</span>
           </h2>
@@ -47,18 +49,7 @@ const Introduction = () => {
                 </span>
                 Explorer{" "}
               </h4>
-              {/* <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Outdoor Games{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Cooking{" "}
-              </h4> */}
+              
             </div>
           </div>
         </div>
