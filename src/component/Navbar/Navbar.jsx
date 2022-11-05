@@ -73,11 +73,12 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              download
-              href="Kundan_Kumar_Keshri_Resume.pdf"
+             
+              href="https://drive.google.com/file/d/1ywjWH6h-mrXNF4Qycxx9A-kBBS_CWb8M/view?usp=share_link"
+              target="_blank"
               onClick={toggleNavList}
               className="link link--nav"
-              target="_blank"
+              
               rel="noreferrer"
             >
               Resume

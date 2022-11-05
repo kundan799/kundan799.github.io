@@ -64,12 +64,9 @@ const About = () => {
           </a>
         
         </div>
-        <a  download href="Kundan_Kumar_Keshri_Resume.pdf">
-
-
+        <a  href="https://drive.google.com/file/d/1ywjWH6h-mrXNF4Qycxx9A-kBBS_CWb8M/view?usp=share_linkf" target="_blank">
         <button 
           className="btnResume"
-         
         >
           Resume
         </button>
