@@ -35,7 +35,8 @@ main {
   top:0;
  
   position:sticky;
-  border:1px solid #23283e ;
+  /* border:1px solid red ; */
+  width: 100%;
   background-color: 
     #2f2e41;
   opacity: 1;

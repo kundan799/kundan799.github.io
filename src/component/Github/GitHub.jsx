@@ -25,7 +25,6 @@ const GitHub = () => {
   return (
     <div>
       <h2 className="git" data-aos="fade-right">My GitHub Calender</h2>
-      <br/>
       <div className='github_Calender' data-aos="fade-right">
         <GitHubCalendar style={{margin:"auto"}}
           username='kundan799'

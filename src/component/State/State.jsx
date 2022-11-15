@@ -16,13 +16,10 @@ const State = () => {
             />
           </a>
         </div>
-        <br />
-        <br />
-        <br />
+        
         <h2 className="stat" data-aos="fade-right">
           My Statistics
         </h2>
-        <br />
 
         <div className="contener1" data-aos="fade-right">
           <a href="https://github.com/kundan799">

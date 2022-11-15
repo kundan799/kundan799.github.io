@@ -72,9 +72,10 @@ export const Navbar = () => {
             </a>
           </li>
           <li className="nav__list-item">
+           
             <a
              
-              href="https://drive.google.com/file/d/1ywjWH6h-mrXNF4Qycxx9A-kBBS_CWb8M/view?usp=share_link"
+              href="https://drive.google.com/uc?export=download&id=1ywjWH6h-mrXNF4Qycxx9A-kBBS_CWb8M"
               target="_blank"
               onClick={toggleNavList}
               className="link link--nav"
@@ -83,6 +84,7 @@ export const Navbar = () => {
             >
               Resume
             </a>
+           
           </li>
         </ul>
 
