@@ -18,13 +18,19 @@ import {
   SiNodedotjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
+import { BsFillBootstrapFill} from "react-icons/bs";
+
 import { VscJson } from "react-icons/vsc";
+import { DiMongodb } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
+
 import { IoLogoJavascript } from "react-icons/io";
 import profilePic from "../../assest/mailChimpClone.png";
 import zapoosclone from "../../assest/ZapoosClone.png";
 import kfcclone from "../../assest/KfcClone.png";
 import havvest from "../../assest/harvest.png";
-
+import fustrom from "../../assest/fusionstrome.png";
+import Dotandkey from "../../assest/Dotandkey.png";
 export const Projects = () => {
   return (
     <>
@@ -34,6 +40,55 @@ export const Projects = () => {
         <br />
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={fustrom} alt="fustrom" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>FusionStrom Clone</h2>
+                <p>
+                  A full fledged e-commerce website where users can shop variety
+                  of items. It also has admin panel for creating new products
+                  and removing them
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />
+                  <FaReact />
+                  <SiChakraui />
+                  <DiMongodb />
+                  <FaNodeJs />
+                  <SiExpress />
+                </div>
+                <div>
+                  <a
+                    href="https://fusion-strome-clone.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/shubhamksingh/FusionStrom.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <------------------------------project-----------> */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -56,7 +111,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://purring-wash-3465.vercel.app/"
+                    href="https://purring-wash-3465-kundan799.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -66,6 +121,51 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/kundan799/purring-wash-3465/tree/master"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <------------------------------project-----------> */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={Dotandkey} alt="Dotandkey" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Dotandkey Clone</h2>
+                <p>
+                  Dot&key is an e-commerce cosmetic store web application that
+                  allows you to cosmetics products online.
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />
+                  <BsFillBootstrapFill />
+               
+                </div>
+                <div>
+                  <a
+                    href="https://gilded-clafoutis-4bdad5.netlify.app/index.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/ahsanofficial/dotandkey-clone"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -185,7 +285,7 @@ export const Projects = () => {
                   <DiCss3 />
                   <IoLogoJavascript />
                   <FaReact />
-                  <SiRedux/>
+                  <SiRedux />
                   <SiChakraui />
                 </div>
                 <div>
