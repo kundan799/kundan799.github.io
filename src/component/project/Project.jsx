@@ -18,7 +18,7 @@ import {
   SiNodedotjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { BsFillBootstrapFill} from "react-icons/bs";
+import { BsFillBootstrapFill } from "react-icons/bs";
 
 import { VscJson } from "react-icons/vsc";
 import { DiMongodb } from "react-icons/di";
@@ -31,6 +31,7 @@ import kfcclone from "../../assest/KfcClone.png";
 import havvest from "../../assest/harvest.png";
 import fustrom from "../../assest/fusionstrome.png";
 import Dotandkey from "../../assest/Dotandkey.png";
+import foundit from "../../assest/foundit_clone.png"
 export const Projects = () => {
   return (
     <>
@@ -40,6 +41,53 @@ export const Projects = () => {
         <br />
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={foundit} alt="fustrom" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Fountit Clone</h2>
+                <p>
+                  foundit, formerly Monster, foundit is Full Stack MERN Website
+                  with CRUD functionalities at Admin Dashboard.
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />
+                  <FaReact />
+                  <SiChakraui />
+                  <DiMongodb />
+                  <FaNodeJs />
+                  <SiExpress />
+                </div>
+                <div>
+                  <a
+                    href="https://monster-gamma.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/owii8247/foundit_clone"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <--------fusion clone------------------------> */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -152,7 +200,6 @@ export const Projects = () => {
                   <DiCss3 />
                   <IoLogoJavascript />
                   <BsFillBootstrapFill />
-               
                 </div>
                 <div>
                   <a
